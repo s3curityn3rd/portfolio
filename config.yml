@@ -1,4 +1,4 @@
-baseURL: "http://localhost"
+baseURL: ""
 title: Michael Register's Profile
 paginate: 5
 theme: hugo-PaperMod
