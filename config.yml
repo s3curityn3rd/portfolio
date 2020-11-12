@@ -1,0 +1,75 @@
+baseURL: "http://localhost"
+title: Michael Register's Profile
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: MRegister
+    description: "Welcome to my personal site!"
+    author: MR
+    # author: ["Me", "You"] # multiple authors
+
+    images: "<link or path of image for opengraph, twitter-cards>"
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    comments: false
+    defaultTheme: auto
+    disableThemeToggle: false
+    disableSpecial1stPost: false
+
+    assets:
+        favicon: "static/favicon.ico"
+        favicon16x16: "static/favicon-16x16.png"
+        favicon32x32: "static/favicon-32x32.png"
+        apple_touch_icon: "static/apple-touch-icon.png"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Main"
+        icon: /apple-touch-icon.png
+        iconHeight: 25
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Michael Register's Personal Site
+        # imageUrl: '<img location>'
+        # imageTitle: my image
+        buttons:
+            - name: Posts
+              url: /posts
+            - name: About Me
+              url: /about
+            
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/S3curityN"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/mregister/"
+        - name: github
+          url: "https://github.com/s3curityn3rd"
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/s3curityn3rd"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
